@@ -1,0 +1,108 @@
+
+.counter{
+    text-align: center;
+    margin-left: 40%;
+}
+
+#plusj{
+    float: right;
+    border-left:1px solid #ded6d6;
+    margin-right: 0px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+#plusi{
+    border-right: 1px solid #ded6d6;
+    margin-left: 0px;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+
+.addremove{
+    width: 20%;
+    background-color:#e60000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius:15px;
+}
+
+
+#add{
+
+    margin-left: 0px;
+    padding-top:200px;
+    margin-right:10px;
+    padding-right:20px;
+    cursor: pointer;
+
+    }
+
+#save{
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius:4px;
+ margin-left: 1111px;
+}
+.button{
+    padding-left:50px;
+    margin-left: 40%;
+}
+
+
+.btn {
+  border: none;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slabel{
+  color: #000000;
+  padding-bottom: : 20px;
+  line-height: 35px;
+
+
+}
+
+
+.flabel{
+  color: #000000;
+
+}
+
+
+#save2{
+    padding-left: 5px;
+    margin-left: 50%;
+    background-color:#e60000;
+    color: #ffffff;
+  cursor: pointer;
+}
+
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}

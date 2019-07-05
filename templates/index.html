@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+
+</head>
+<body>
+
+<div ng-app="angularApp">
+    <div ng-controller="formCtrl">
+      <!-- ng-controller application initialization -->
+        <form>
+              <label class="flabel">label</label><br>
+              <input name="label" ng-model="textValue1"id="textvalue"> <br>
+              <p><span id='display'></span></p>
+              <label class="slabel">Select color</label><br>
+              <input class="color"type="color" id="cvalue" name="favcolor" value="#ff0000">
+              <button type="button"id="save" ng-click="Save()">Save</button>
+
+               <my-first-script></my-first-script>
+
+      </form>
+
+    </div>
+<br>
+        <button class="fa fa-plus"id="save2"></button>
+
+</div>
+</body>
+</html>
+
+
