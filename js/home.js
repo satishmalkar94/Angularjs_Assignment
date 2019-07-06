@@ -30,13 +30,10 @@ app.service('angularService',function(){
         };
 })
 
-
 app.directive('myFirstScript',function(){
 
 
 return{
-
-
 template :"<div ndclass='col-md-12'><div class='addremove' id='addremove'><i class='fa fa-minus-circle' id='plusi' ng-click='dcrCounter()'></i><span class='counter'id='total'><label id='lblText'></label><label id='lblCounter'>{{counterNum | number:0}}</label></span><i class='fa fa-plus-circle' id='plusj' ng-click='incCounter()'></i></div></div>",
 
     restrict: 'E',
