@@ -17,16 +17,14 @@
         <h2 class="active">Active Thing Counters</h2>
       </header>
   <form>
-      <div ng-hide="Visible">
         <button class="fa fa-plus"id="save2"ng-click="ShowBtn()"></button>
-      </div>
         <div class="AddForm">
           <label class="flabel">label</label><br>
           <input name="label" type="text" ng-model="textvalue"> <br>
           <p><span id='display'></span></p>
-          <label class="slabel">Select color</label><br>
-          <input type="color" name="favcolor" ng-model="cvalue">
-          {{cvalue}}
+          <label class="slabel">Select color</label>
+          <input class="clr" type="color" name="favcolor" ng-model="cvalue  ">
+          {{cvalue}} <br>
           <!-- <button type="button"id="save" ng-click="Save()">Save</button> -->
           <my-first-script></my-first-script>
        </div>
