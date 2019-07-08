@@ -20,13 +20,14 @@
       <div ng-hide="Visible">
         <button class="fa fa-plus"id="save2"ng-click="ShowBtn()"></button>
       </div>
-        <div ng-show = "inVisible" class="AddForm">
+        <div class="AddForm">
           <label class="flabel">label</label><br>
-          <input name="label" ng-model="textValue1"id="textvalue"ng-model="Label"> <br>
+          <input name="label" type="text" ng-model="textvalue"> <br>
           <p><span id='display'></span></p>
           <label class="slabel">Select color</label><br>
-          <input class="color"type="color" id="cvalue" name="favcolor"ng-model="Color" value="#ff0000">
-          <button type="button"id="save" ng-click="Save()">Save</button>
+          <input type="color" name="favcolor" ng-model="cvalue">
+          {{cvalue}}
+          <!-- <button type="button"id="save" ng-click="Save()">Save</button> -->
           <my-first-script></my-first-script>
        </div>
   </form>
