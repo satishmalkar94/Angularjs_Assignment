@@ -1,12 +1,13 @@
 .body{
       background-color: darkgrey;
+    };
 }
 .counter{
     text-align: center;
     margin-left: 40%;
 }
 
-#plusj{
+.plusj{
     float: right;
     border-left:1px solid #ded6d6;
     margin-right: 0px;
@@ -14,7 +15,7 @@
     cursor: pointer;
 }
 
-#plusi{
+.plusi{
     border-right: 1px solid #ded6d6;
     margin-left: 0px;
     padding-right: 5px;
@@ -26,47 +27,7 @@
     color: #ffffff;
     padding: 10px;
     border-radius:15px;
-}
-
-
-#add{
-
-    margin-left: 0px;
-    padding-top:200px;
-    margin-right:10px;
-    padding-right:20px;
-    cursor: pointer;
-
-    }
-
-#save{
-  cursor: pointer;
-  padding: 10px 24px;
-  border-radius:4px;
- margin-left: 1111px;
-}
-.button{
-    padding-left:50px;
-    margin-left: 40%;
-}
-
-
-.btn {
-  border: none;
-  background-color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.slabel{
-  color: #000000;
-  padding-bottom: : 20px;
-  line-height: 34px;
-
-
-
-}
+};
 
 .clr{
   cursor: pointer;
@@ -78,7 +39,7 @@
 
 }
 
-#save2{
+.add{
     padding-left: 5px;
     margin-left: 50%;
     background-color:#e60000;
